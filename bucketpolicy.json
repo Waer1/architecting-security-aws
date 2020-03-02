@@ -1,0 +1,12 @@
+{
+   "Statement": [
+      {
+         "Effect": "Allow",
+         "Principal":  {
+            "CanonicalUser": ""
+         },
+         "Action": "s3:GetObject",
+         "Resource": "arn:aws:s3:::benpiper.com-cloudfront/*"
+      }
+    ]
+}
