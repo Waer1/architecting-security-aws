@@ -1,3 +1,4 @@
+# Load named profile
 export AWS_PROFILE=ben
 
 # Create S3 bucket
@@ -14,6 +15,9 @@ aws cloudfront create-cloud-front-origin-access-identity \
 
 # Apply a bucket policy granting read access to the OAI
 aws s3api put-bucket-policy --bucket benpiper.com-cloudfront --policy file://bucketpolicy.json
+
+# Verify bucket policy
+aws s3api get-bucket-policy --bucket benpiper.com-cloudfront
 
 # Create a CloudFront distribution
 aws cloudfront create-distribution --distribution-config file://dist-config.json
