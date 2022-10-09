@@ -8,8 +8,8 @@
         "Quantity": 1,
         "Items": [
             {
-                "Id": "benpiper.com-cloudfront-demo",
-                "DomainName": "benpiper.com-cloudfront.s3.amazonaws.com",
+                "Id": "waer.com-cloudfront-demo",
+                "DomainName": "waer.com-cloudfront.s3.amazonaws.com",
                 "OriginPath": "",
                 "CustomHeaders": {
                     "Quantity": 0
@@ -24,7 +24,7 @@
         "Quantity": 0
     },
     "DefaultCacheBehavior": {
-        "TargetOriginId": "benpiper.com-cloudfront-demo",
+        "TargetOriginId": "waer.com-cloudfront-demo",
         "ForwardedValues": {
             "QueryString": false,
             "Cookies": {
