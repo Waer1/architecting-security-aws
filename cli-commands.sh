@@ -6,7 +6,7 @@ aws s3api create-bucket --bucket benpiper.com-cloudfront
 
 # Create and uplaod index.html document
 echo "Hello, world!" > index.html
-aws s3 cp index.html s3://benpiper.com-cloudfront/
+aws s3 cp index.html s3://waer.com-cloudfront/
 
 # Create the origin access identity (OAI)
 aws cloudfront create-cloud-front-origin-access-identity \
