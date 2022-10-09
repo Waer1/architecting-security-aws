@@ -6,5 +6,5 @@ aws cloudfront get-cloud-front-origin-access-identity --id
 aws cloudfront delete-cloud-front-origin-access-identity --id --if-match
 
 # Delete the bucket
-aws s3 rm s3://yourbuckethere/index.html
+aws s3 rm s3://web-145784-8544-dev/index.html
 aws s3api delete-bucket --bucket yourbuckethere
